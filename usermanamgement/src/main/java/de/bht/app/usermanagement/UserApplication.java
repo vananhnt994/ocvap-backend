@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguratio
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@SpringBootApplication(exclude={WebMvcAutoConfiguration.class},scanBasePackages = "de.bht.app.ocvap.usermanagement")
+@SpringBootApplication(exclude={WebMvcAutoConfiguration.class},scanBasePackages = "de.bht.app.usermanagement")
 @CrossOrigin(origins = "http://localhost:3000")
 @EnableAspectJAutoProxy
 public class UserApplication {
